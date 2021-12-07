@@ -1,0 +1,112 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+/* changing the navbar font size */
+.navbar-brand{
+    font-size: 17px;
+}
+
+.navbar{
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+}
+
+img{
+    border-radius: 10px;
+}
+
+/* menu toggle button */
+.toggle-btn{
+    border: none;
+}
+
+.select-wrapper{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+
+    width: 180px;
+}
+
+/* event selector */
+.even-select{
+    border: none;
+    color: white;
+    font-size: 22px;
+}
+
+.carousel-wrapper{
+    position: relative;
+}
+
+.tag{
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    width: 100%;
+    height: 22%;
+    background-color: rgba(13, 178, 255, 0.4);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    margin: 0%;
+}
+
+.carousel-inner{
+    border-radius: 10px;
+}
+
+.image-wrapper{
+    position: relative;
+}
+
+.carousel-img-decs{
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 23px;
+}
+
+.brdr-raduis{
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+}
+
+.card-box{
+    position: relative;
+}
+
+.card-box:hover{
+    box-shadow: 0 5px 16px 0 rgba(0,0,0,0.2),0 5px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* media queries */
+
+@media only screen and (max-width: 400px) {
+    
+    .select-wrapper{
+        width: 142px;
+    }
+
+    .toggle-btn{
+        width: 65px;
+        text-align: center;
+        font-size: 17px;
+    }
+
+    .even-select{
+        font-size: 14px;
+    }
+
+    .login-box{
+        font-size: 14px;
+    }
+}

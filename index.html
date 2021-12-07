@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <!-- remix icon link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>WebMOBI</title>
+  </head>
+  <body>
+    <!-- navbar starts here  -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <div class="container-fluid">
+        <!-- menu toggle button -->
+        <button
+          class="navbar-toggler toggle-btn"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="ri-list-check" style="color: white"></i><br />
+          <span style="color: white">Menu</span>
+        </button>
+
+        <!-- menu options toggle -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+
+        <!-- select options -->
+        <div class="select-wrapper">
+          <i class="ri-inbox-fill" style="color: white; font-size: large"></i>
+          <select
+            class="form-select bg-primary even-select"
+            aria-label="Default select example"
+          >
+            <option value="hrsummit">HRSummit</option>
+            <option value="event1">Event 1</option>
+            <option value="event2">Event 2</option>
+          </select>
+        </div>
+
+        <!-- login  -->
+        <a class="navbar-brand login-box" href="#" style="text-align: center">
+          <i class="ri-user-3-fill"></i><br />
+          Login
+        </a>
+      </div>
+    </nav>
+    <!-- navbar ends here  -->
+
+    <div class="container">
+      
+      <!-- carousel -->
+      <div class="container carousel-wrapper my-2">
+        <div
+          id="carouselExampleSlidesOnly brdr-raduis"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active image-wrapper">
+              <img
+                src="images/carousel/photo3.jpg"
+                class="d-block w-100 brdr-raduis"
+                alt="image"
+              />
+              <p class="carousel-img-decs">First Image</p>
+            </div>
+            <div class="carousel-item image-wrapper">
+              <img
+                src="images/carousel/photo2.jpg"
+                class="d-block w-100 brdr-raduis"
+                alt="image"
+              />
+              <p class="carousel-img-decs">Second Image</p>
+            </div>
+            <div class="carousel-item image-wrapper">
+              <img
+                src="images/carousel/photo1.jpg"
+                class="d-block w-100 brdr-raduis"
+                alt="image"
+              />
+              <p class="carousel-img-decs">Third Image</p>
+            </div>
+          </div>
+          <div class="tag">Agenda</div>
+        </div>
+      </div>
+
+      <div class="container d-flex">
+        <div class="card m-1 my-2 brdr-raduis card-box" style="width: 100%;">
+          <img src="images/carousel/photo1.jpg"  alt="image" height="150px"/>
+          <p class="tag">Venue</p>
+        </div>
+        
+        <div class="card m-1 my-2 brdr-raduis card-box" style="width: 100%">
+          <img src="images/carousel/photo2.jpg" alt="image" height="150px"/>
+          <p class="tag">About us</p>
+        </div>
+      </div>
+
+      <div class="container d-flex">
+        <div class="card m-1 my-2 brdr-raduis card-box" style="width: 100%;">
+          <img src="images/carousel/photo3.jpg"  alt="image" height="150px"/>
+          <p class="tag">Sponsors</p>
+        </div>
+        
+        <div class="card m-1 my-2 brdr-raduis card-box" style="width: 100%">
+          <img src="images/carousel/photo1.jpg" alt="image" height="150px"/>
+          <p class="tag">Contact Us</p>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="card m-1 my-2 brdr-raduis card-box" style="width: 100%">
+          <img src="images/carousel/photo1.jpg" alt="image" height="150px"/>
+          <p class="tag">Speakers</p>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
